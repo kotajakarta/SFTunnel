@@ -105,7 +105,7 @@ cat > /etc/xray/config.json << END
   "inbounds": [
       {
       "listen": "127.0.0.1",
-      "port": 10085,
+      "port": 10000,
       "protocol": "dokodemo-door",
       "settings": {
         "address": "127.0.0.1"
@@ -114,7 +114,7 @@ cat > /etc/xray/config.json << END
     },
    {
      "listen": "127.0.0.1",
-     "port": "14016",
+     "port": "10001",
      "protocol": "vless",
       "settings": {
           "decryption":"none",
@@ -134,7 +134,7 @@ cat > /etc/xray/config.json << END
      },
     {
      "listen": "127.0.0.1",
-     "port": "23456",
+     "port": "10002",
      "protocol": "vmess",
       "settings": {
             "clients": [
@@ -154,7 +154,7 @@ cat > /etc/xray/config.json << END
      },
     {
      "listen": "127.0.0.1",
-     "port": "28406",
+     "port": "10004",
      "protocol": "vmess",
       "settings": {
             "clients": [
@@ -174,7 +174,7 @@ cat > /etc/xray/config.json << END
      },
     {
       "listen": "127.0.0.1",
-      "port": "25432",
+      "port": "10005",
       "protocol": "trojan",
       "settings": {
           "decryption":"none",
@@ -195,7 +195,7 @@ cat > /etc/xray/config.json << END
      },
     {
         "listen": "127.0.0.1",
-        "port": "30300",
+        "port": "10006",
         "protocol": "shadowsocks",
         "settings": {
            "clients": [
@@ -216,7 +216,7 @@ cat > /etc/xray/config.json << END
      },
       {
         "listen": "127.0.0.1",
-     "port": "24456",
+     "port": "10007",
         "protocol": "vless",
         "settings": {
          "decryption":"none",
@@ -236,7 +236,7 @@ cat > /etc/xray/config.json << END
      },
      {
       "listen": "127.0.0.1",
-     "port": "31234",
+     "port": "10008",
      "protocol": "vmess",
       "settings": {
             "clients": [
@@ -256,7 +256,7 @@ cat > /etc/xray/config.json << END
      },
      {
         "listen": "127.0.0.1",
-     "port": "33456",
+     "port": "10009",
         "protocol": "trojan",
         "settings": {
           "decryption":"none",
@@ -276,7 +276,7 @@ cat > /etc/xray/config.json << END
    },
    {
     "listen": "127.0.0.1",
-    "port": "30310",
+    "port": "10010",
     "protocol": "shadowsocks",
     "settings": {
         "clients": [
